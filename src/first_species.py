@@ -27,7 +27,7 @@ assert(len(CantusFirmus) == 16)
 # For now, the counterpoint will be above cantus firmus
 counterpoint = Ints(' '.join(f'cp_{i}' for i in range(16)))
 
-s = Solver()
+s = SolverFor("QF_LIA")
 s.set(unsat_core=True)
 set_core_minimize(s)
 
