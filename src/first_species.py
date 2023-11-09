@@ -127,7 +127,7 @@ print(s.statistics())
 with open('z3-constraints.smt2', 'w') as f:
     f.write(s.sexpr())
 
-m=s.model()
+m = s.model()
 for note in counterpoint:
     numeric_val = m[note].as_long()
     note_value = Pitch.from_num(m[note].as_long())
