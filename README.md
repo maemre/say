@@ -1,6 +1,6 @@
 # say
 
-Say (pronounced [/saj/](https://en.wikipedia.org/wiki/Help:IPA/Turkish), named after [Fazıl Say](https://en.wikipedia.org/wiki/Faz%C4%B1l_Say)) is
+Say (pronounced [/saj/](https://en.wikipedia.org/wiki/Help:IPA/Turkish) is
 a tool to generate polyphonic pieces following rules from common practice in Western classical music.
 
 ## Why?
